@@ -1,0 +1,26 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# Ignore all backups
+*~
+
+# Ignore all testcases
+tc/
+
+# Ignore .DS_Store from mac
+.DS_Store
+
+# Ignore .exe from Windows
+*.exe
+
+*.psd
+# *.gif
+
+# Ignore class files from java
+*.class
