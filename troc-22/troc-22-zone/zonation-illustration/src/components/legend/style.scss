@@ -1,0 +1,19 @@
+.legend-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.legend-placeholder {
+  width: 70vw;
+  text-align: center;
+  height: fit-content;
+  font-size: 2.3vw;
+  font-weight: bold;
+  text-shadow:
+  -1px -1px 0 #FFF,  
+   1px -1px 0 #FFF,
+   -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+}

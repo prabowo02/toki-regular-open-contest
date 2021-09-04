@@ -1,0 +1,16 @@
+.canvas-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.message-container{
+  text-align: center;
+  font-size: 2.8vw;
+  font-weight: bold;
+  text-shadow:
+  -1px -1px 0 #FFF,  
+   1px -1px 0 #FFF,
+   -1px 1px 0 #FFF,
+    1px 1px 0 #FFF;
+}
