@@ -256,7 +256,7 @@ int main(int argc,char *argv[])
 		}
 		
 		// Permutation check.
-		if(seq[i]<0||seq[i]>n*n||visit[seq[i]])
+		if(seq[i]<1||seq[i]>n*n||visit[seq[i]])
 		{
 			wa();
 		}
@@ -282,7 +282,7 @@ int main(int argc,char *argv[])
 			wa();
 		}
 		
-		if(p<0||p>n*n)
+		if(p<1||p>n*n)
 		{
 			wa();
 		}
